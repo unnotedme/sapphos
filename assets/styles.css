@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .first-page .icon {
@@ -31,25 +31,36 @@
 }
 
 .first-page .icon h3 {
-    font-size: 16px;
-    color: var(--white);
-    font-weight: 400;
-    margin: 0px 20px 0px 20px;
+	font-size: 16px;
+	color: var(--white);
+	font-weight: 400;
+	width: 50%;
+	margin: 0px 20px 0px 20px;
+}
+
+.first-page .login-button{
+padding: 0px;
 }
 
 .first-page .login-button button {
-    font-size: 20px;
-    color: var(--white);
-    background-color: var(--pink);
-    border-radius: 20%;
-    margin: 0px 20px 20px 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: var(--white);
+	background-color: var(--pink);
+	padding: 5px;
+	margin: 0px 10px 10px 20px;
+	width: 300px;
+	/* border: 1px solid #9F35CC; */
+	border: none;
+	border-radius: 16px;
 }
 
 .first-page .social-media-buttons {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif; 
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 15px;
 }
 
 
