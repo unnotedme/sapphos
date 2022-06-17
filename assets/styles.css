@@ -1,0 +1,57 @@
+:root {
+    --white:#FFFFFF;
+    --purple: #9F35CC;
+    --background: #242424;
+    --pink: #CD3066;
+}
+
+* {
+    background-color: var(--background);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.first-page .icon {
+    padding: 20px;
+}
+
+.first-page .icon img {
+   margin: 50px 50px 0px 50px;
+}
+
+
+.first-page .icon h1 {
+    font-size: 32px;
+    color: var(--purple);
+    font-weight: bolder;
+}
+
+.first-page .icon h3 {
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 400;
+    margin: 0px 20px 0px 20px;
+}
+
+.first-page .login-button button {
+    font-size: 20px;
+    color: var(--white);
+    background-color: var(--pink);
+    border-radius: 20%;
+    margin: 0px 20px 20px 20px;
+}
+
+.first-page .social-media-buttons {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+
+
+
